@@ -1,0 +1,36 @@
+.card{
+position: fixed;
+border-style: groove;
+display: block;
+margin-right: auto;
+margin-left: auto ;
+width: 300px;
+height: 400px;
+text-align:center ;
+
+border-radius: 10px;
+}
+button{color: aliceblue;
+    background-color: blue;
+    border-radius: 8px;
+
+}
+.head{
+text-decoration: solid;
+font-weight: bold;
+
+}
+.time{
+text-decoration: solid;
+font-weight: bold;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 70px;
+left: 35px;
+
+}
+.am{
+font-size: 40px;
+
+
+}

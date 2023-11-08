@@ -1,0 +1,35 @@
+.box{
+display: flex;
+flex-direction: row;
+position: absolute;
+width: 700px;
+border-style: groove;
+display: inline;
+padding: 20px;
+text-decoration: none;
+background-color: rgb(0, 255, 26);
+
+}
+.sidebox{
+
+width: 600px;
+    border-style: groove ;
+    overflow: auto;
+    height: 100px;
+    top: 14px;
+    position: absolute;
+    left: 100px;
+    height: 300px;
+    font-size: 30px;
+    text-align:center ;
+    
+
+}
+a{
+
+text-decoration: none;
+background-color: rgb(99, 9, 243);
+color: aliceblue;
+border-radius: 4px;
+
+}

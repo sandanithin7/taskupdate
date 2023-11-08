@@ -1,0 +1,33 @@
+.card{
+position:relative;
+box-shadow:  1px 1px 3px 3px black;
+border-style: groove;
+width: 400px;}
+.p{
+color: black;
+text-decoration: solid;
+font-size: 20px;
+text-align: center;
+background-color: aliceblue;
+top: 20px;
+}
+.vide0{
+    position: absolute;
+    top: 10PX;
+
+width: 800px;
+    
+    }
+    
+
+
+.vide0:hover{
+left: 425px;
+top: 150px;
+box-shadow: 10px  black;
+
+}
+.letter{
+font-size: 20px;
+
+}
