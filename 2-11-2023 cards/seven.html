@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+table,td,tr,th{border: 2px solid black;
+border-collapse: collapse;}
+</style>
+<body>
+    
+
+
+
+
+    <script>
+        let name =document.createElement("h3")
+        console.log(name)
+        name.innerHTML="Nithin"
+        bodyy = document.body;
+        console.log(bodyy)
+        bodyy.appendChild(name)
+        
+        let email = document.createElement("p")
+        console.log(email)
+        email.innerHTML="sainithin95054@gmail.com"
+        bodyy = document.body;
+        console.log(bodyy)
+        bodyy.appendChild(email)
+    
+        
+        let number = document.createElement("p")
+        console.log(number)
+        number.innerHTML="9505492525"
+        bodyy = document.body;
+        console.log(bodyy)
+        bodyy.appendChild(number)
+        
+        let ob=document.createElement("h2")
+        console.log(ob)
+        ob.style.color="red"
+        ob.innerHTML="CAREER OBJECTIVE"
+        bodyy = document.body;
+        console.log(bodyy)
+        bodyy.appendChild(ob)
+         
+        let brea = document.createElement("hr")
+        bodyy.appendChild(brea)
+
+        let work =document.createElement("b")
+        console.log(work)
+        work.innerHTML="To work in high-grown organization with a competitive and challenging environment that creates an ideal condition for delivering high quality services. "
+        bodyy=document.body;
+        console.log(bodyy)
+        bodyy.appendChild(work)
+
+        let br = document.createElement("hr")
+        bodyy.appendChild(br)
+
+
+        let sk=document.createElement("h2")
+        console.log(sk)
+        sk.style.color="blue"
+        sk.innerHTML="SKILLS"
+        bodyy.appendChild(sk)
+
+        
+        let skill1 = document.createElement("h4")
+        console.log(skill1)
+        skill1.innerHTML=" 1. HTML"
+        bodyy=document.body;
+        console.log(bodyy)
+        bodyy.appendChild(skill1)
+
+
+        let skill2 = document.createElement("h4")
+        console.log(skill2)
+        skill2.innerHTML="2. CSS";
+        bodyy.appendChild(skill2)
+        
+
+        let skill3 = document.createElement("h4")
+        skill3.innerHTML="3. JAVA SCRIPT"
+        bodyy.appendChild(skill3)
+        
+        let skill5 = document.createElement("h4")
+        skill5.innerHTML="4. BOOTSTRAP"
+        bodyy.appendChild(skill5)
+
+
+        let skill6 = document.createElement("h4")
+        skill6.innerHTML="5. GITHUB"
+        bodyy.appendChild(skill6)
+         
+
+        let edu = document.createElement("h2")
+        edu.innerHTML="EDUCATION"
+        edu.style.color="blue"
+        edu.style.background="yellow"
+    
+        bodyy.appendChild(edu)
+
+        let table1=document.createElement("table")
+        document.body.appendChild(table1 )
+//Start of 1st row
+        let tr1=document.createElement("tr")
+            table1.appendChild(tr1)
+
+            let tr1th1=document.createElement("th")
+            tr1th1.innerText="Degree/course"
+            tr1.appendChild(tr1th1)
+
+            let tr1th2=document.createElement("th")
+            tr1th2.innerText="Institute/college"
+            tr1.appendChild(tr1th2)
+
+            let tr1th3=document.createElement("th")
+            tr1th3.innerText="University/Board"
+            tr1.appendChild(tr1th3)
+
+            let tr1th4=document.createElement("th")
+            tr1th4.innerText="Percentage/CGPA"
+            tr1.appendChild(tr1th4)
+
+
+            let tr1th5=document.createElement("th")
+            tr1th5.innerHTML="Year of passing"
+            tr1.appendChild(tr1th5)
+        
+///start of 2nd row  
+            let tr2=document.createElement("tr")
+            table1.appendChild(tr2)
+
+            
+            let secrow1=document.createElement("td")
+            secrow1.innerText="Bachelor of Technology (Agriculture Engineering)"
+            tr2.appendChild(secrow1)
+
+
+            let secrow2=document.createElement("td")
+            secrow2.innerHTML="Nova College Of Engineering And Technology "
+            tr2.appendChild(secrow2)
+
+            let secrow3=document.createElement("td")
+            secrow3.innerHTML="JNTUK"
+            tr2.appendChild(secrow3)
+
+
+            let secrow4=document.createElement("td")
+            secrow4.innerHTML="62%"
+            tr2.appendChild(secrow4)
+
+            let secrow5=document.createElement("td")
+            secrow5.innerHTML="2023"
+            tr2.appendChild(secrow5)
+
+////start of 3rd row 
+           let tr3=document.createElement("tr")
+           table1.appendChild(tr3)
+
+
+           
+           let trow1=document.createElement("td")
+           trow1.innerHTML="Diploma in Agriculture Engineering"
+           tr3.appendChild(trow1)
+
+
+           let trow2=document.createElement("td")
+           trow2.innerHTML="Dr D Ramanaidu Vignana Jyothi Agricultural Engineering Polytechnic, Medak"
+           tr3.appendChild(trow2)
+
+           let trow3=document.createElement("td")
+           trow3.innerHTML="PJTSAU"
+           tr3.appendChild(trow3)
+
+
+           let trow4=document.createElement("td")
+           trow4.innerHTML="65%"
+           tr3.appendChild(trow4)
+
+           let trow5=document.createElement("td")
+           trow5.innerHTML="2020"
+           tr3.appendChild(trow5)
+
+///4th row 
+    
+
+           let tr4=document.createElement("tr")
+           table1.appendChild(tr4)
+
+           let fr0w1=document.createElement("td")
+           fr0w1.innerHTML="SSC"
+           tr4.appendChild(fr0w1)
+
+
+           let fr0w2=document.createElement("td")
+           fr0w2.innerHTML="Krishna veni talent school"
+           tr4.appendChild(fr0w2)
+
+
+           let fr0w3=document.createElement("td")
+           fr0w3.innerHTML="SSC Board"
+           tr4.appendChild(fr0w3)
+
+           let fr0w4=document.createElement("td")
+           fr0w4.innerHTML="78%"
+           tr4.appendChild(fr0w4)
+
+
+           let fr0w5=document.createElement("td")
+           fr0w5.innerHTML="2017"
+           tr4.appendChild(fr0w5)
+/////BREAK 
+
+           let bre = document.createElement("hr")
+           bodyy.appendChild(bre)
+
+           let st = document.createElement("h3")
+           st.innerHTML="STRENGTHS"
+           st.style.color="red"
+           bodyy.appendChild(st)
+
+
+           ////BRAEK
+
+           let brr = document.createElement("hr")
+           bodyy.appendChild(brr)
+
+
+           let hrr = document.createElement("h5")
+           hrr.innerHTML=" * Postive Attitude"
+           bodyy.appendChild(hrr)
+
+           let hrrr = document.createElement("h5")
+           hrrr.innerHTML=" * Good Communication Skills"
+           bodyy.appendChild(hrrr)
+
+
+           ////BREAK
+           let bre2 = document.createElement("hr")
+           bodyy.appendChild(bre2)
+
+
+           let per = document.createElement("h3")
+           per.innerHTML="PERSONAL DETAILS"
+           bodyy.appendChild(per)
+           per.style.color="blue"
+////BREAK
+           let bre1 = document.createElement("hr")
+           bodyy.appendChild(bre1)
+
+
+
+        let adress= document.createElement("h5")
+        adress.innerHTML="ADDRESS :  7-8-3 srinagar colony,panagal road nalgonda"
+        bodyy.appendChild(adress)
+
+
+        let date= document.createElement("h5")
+        date.innerHTML=" Date of Birth : 25/11/2000"
+        bodyy.appendChild(date)
+
+        let mal= document.createElement("h5")
+        mal.innerHTML=" Gender : Male"
+        bodyy.appendChild(mal)
+
+        let lau= document.createElement("h5")
+        lau.innerHTML=" Languages known: Telugu,English"
+        bodyy.appendChild(lau)
+    
+        
+///footer
+
+
+let decla= document.createElement("h3")
+decla.innerHTML="DECLARATION"
+bodyy.appendChild(decla)
+
+let bre4 = document.createElement("hr")
+bodyy.appendChild(bre4)
+
+let hii =document.createElement("h6")
+hii.innerHTML="I hereby declare that all the above information is true to best of my knowledge"
+bodyy.appendChild(hii)
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+           
+
+
+
+
+
+
+
+
+
+           
+
+
+
+
+
+
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
